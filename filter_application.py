@@ -3,6 +3,12 @@ from sqlalchemy import create_engine
 import pandas as pd
 import numpy as np
 
+# Set page configuration
+st.set_page_config(
+    page_title="Red Bus",
+    page_icon="C:/Users/arund/Downloads/redbus_logo.png"  
+)
+
 # Initialize session state for selected filters
 if 'selected_price' not in st.session_state:
     st.session_state.selected_price = 'Anything'
