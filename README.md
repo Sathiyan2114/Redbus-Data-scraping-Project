@@ -105,6 +105,7 @@ Users can filter the data based on different attributes and analyze route, prici
 
 ## 📁 Project Structure
 
+```text
 Redbus-Data-scraping-Project/
 │
 ├── Data/
@@ -113,6 +114,7 @@ Redbus-Data-scraping-Project/
 ├── requirements.txt
 ├── README.md
 └── screenshots/
+```
 
 🚀 Key Takeaway
 
